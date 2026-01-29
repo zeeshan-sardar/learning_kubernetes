@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ml-model-config
+data:
+  CLASS_NAMES: "setosa,versicolor,virginica"
+  MODEL_VERSION: "v2"
+  LOG_LEVEL: "INFO"
